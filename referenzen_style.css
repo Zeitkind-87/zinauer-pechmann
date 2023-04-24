@@ -1,0 +1,238 @@
+@media (max-width: 767px) {
+    body {
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        margin: 0 0 0 0;
+    }    
+
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 15vw;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 15vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 25vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 4vw;
+    }
+    
+    .dropdown {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    .dropbtn {
+        background-image: url(images/menu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        height: 6vw;
+        width: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .navbar a:hover, .dropdown:hover .dropbtn {
+        background-image: url(images/menu.png);
+    }
+      
+    .container-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #5a5a5a70;
+        backdrop-filter: blur(15px);
+        min-width: 50vw;
+        z-index: 4;
+        margin-left: -52vw;
+        margin-top: 46vw;
+    }
+    
+    ul.links {
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+      }
+      
+    .links li {
+        padding: 2vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .links a[href^="shop"]{
+        text-decoration: none;
+        background-color: #D71922;
+        width: 50vw;
+        color: #ffffff;
+        font-weight: lighter;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 1vw;
+    }
+      
+    .dropdown:hover .container-dropdown {
+        display: block;
+    }
+    
+    .facebook{
+        float: right;
+        width: 6vw;
+        margin: 0% 4vw 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        float: right;
+        width: 6vw;
+        margin: 0% 4vw 0% 0%;
+    }
+    
+    .einkaufswagen-website{
+        display: none;
+    }
+
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 0vw;
+    }
+    
+    section .container-referenz  {
+        display: flex;
+    }
+    
+    .container-referenz-image{
+        width: 100vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-referenz-image img{
+        width: 130vw;
+        height: 40vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 10vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 6vw;
+        margin-left: -100vw;
+        margin-top: 20vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0vw;
+    }
+
+    .container-bild1{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .bild1{
+        margin-top: 30vw;
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .bild1 img{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .container-bild2{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .bild2{
+        margin-top: 10vw;
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .bild2 img{
+        width: 60vw;
+        height: 60vw;
+    }
+
+    .container-bild3{
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .bild3{
+        margin-top: 10vw;
+        height: auto;
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .bild3 img{
+        width: 60vw;
+        height: 60vw;
+    }
+}

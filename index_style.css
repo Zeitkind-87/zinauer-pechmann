@@ -1,0 +1,1228 @@
+
+@media (max-width: 767px) {
+
+body {
+    background-color: white;
+    margin: 0 0 0 0;
+}    
+
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 15vw;
+}
+
+section .container-header{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-bottom: 0%;
+}
+
+.container-logo{
+    width: 50vw;
+    height: 15vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.logo{
+    width: 25vw;
+}
+
+.container-menu{
+    width: 50vw;
+    height: auto;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 4vw;
+}
+
+.dropdown {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.dropbtn {
+    background-image: url(images/menu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 6vw;
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-image: url(images/menu.png);
+}
+  
+.container-dropdown {
+    display: none;
+    position: absolute;
+    background-color: #5a5a5a70;
+    backdrop-filter: blur(15px);
+    min-width: 50vw;
+    z-index: 4;
+    margin-left: -52vw;
+    margin-top: 46vw;
+}
+
+ul.links {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+  }
+  
+.links li {
+    padding: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.links a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.links a[href^="shop"]{
+    text-decoration: none;
+    background-color: #D71922;
+    width: 50vw;
+    color: #ffffff;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+}
+  
+.dropdown:hover .container-dropdown {
+    display: block;
+}
+
+.facebook{
+    float: right;
+    width: 6vw;
+    margin: 0% 4vw 0% 0%;
+}
+
+.einkaufswagen-mobile{
+    float: right;
+    width: 6vw;
+    margin: 0% 4vw 0% 0%;
+}
+.einkaufswagen-website{
+    display: none;
+}
+
+nav {
+    width: 100vw;
+    height: auto;
+    background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+    padding-bottom: 0vw;
+}
+
+section .container-roof  {
+    display: flex;
+}
+
+.container-roof-image{
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+}
+
+.container-roof-image img{
+    width: 130vw;
+    height: 40vw;
+    object-fit: cover;
+}
+
+.container-h1 {
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    position:absolute;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 6vw;
+    margin-left: -100vw;
+    margin-top: 20vw;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0vw;
+}
+
+section .container-description{
+    margin-top: 5vw;
+    height: auto;
+    width: auto;
+}
+
+.description{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 5vw 0px 0px 10vw;
+    padding-right: 1vw;
+    color: white;
+    text-align: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-shop{
+    width: 100vw;
+    height: auto;
+    margin-top: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-shop button{
+    background-color: #D71922;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 10vw 0px 0px 5vw;
+    padding: 0vh 5vw;
+    cursor: pointer;
+}
+
+.arrowRight{
+    border: solid rgb(255, 255, 255);
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    font-weight: bold;
+    padding: 0.8vw 0px 0.2vw 1vw;
+    margin-left: 1vw;
+    transform: rotate(-45deg);
+}
+
+section .container-leistungen{
+    width: 100vw;
+    height: 60vw;
+    display: flex;
+    align-items: center;   
+}
+
+section .container-tool-image{
+    width: 50vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    display: none;
+}
+
+.container-tool-image img{
+    width: 100vw;
+    height: 45vw;
+    object-fit: cover;
+    margin-top: 0vw;
+    margin-left: 32vw;
+    display: none;    
+}
+
+.container-unsere-leistungen{
+    background-color: #797979e3;
+    width: 100vw;
+    height: 45vw;
+    margin-top: 0vw;
+}
+
+h2{
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 5vw;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 60vw;
+    height: auto;
+    margin-top: 1vw;
+    padding-left: 2vw;
+}
+
+.abdichten{
+    margin: 1vw 0% 0% 0%;
+}
+
+.abdichten li{
+    display: inline;
+    color: #ffffff;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+    margin-left: 5vw;
+}
+
+.sanieren{
+    margin: 2vw 0% 0% 0%;
+}
+
+.sanieren li{
+    display: inline;
+    color: #ffffff;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+    margin-left: 7vw;
+}
+
+.verfugen{
+    margin: 2vw 0% 0% 0%;
+}
+
+.verfugen li{
+    display: inline;
+    color: #ffffff;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+    margin-left: 5vw;
+}
+
+.container-button-details {
+    height: 4vw;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    padding: 0px 1vw;
+}
+
+.container-button-details button{
+    background-color: #D71922;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: bold;
+    margin: 14vw 0px 0px 0vw;
+    margin-right: 6vw;
+    padding: 0vh 8vw;
+    cursor: pointer;
+}
+
+.container-vorteile{
+    background-color: #D71922;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 2vw;
+    padding-bottom: 5vw;
+
+}
+
+h4{
+    color: #ffffff;
+    font-size: 5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.vorteile li{
+    display:inline-block;
+    color: #ffffff;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4vw;
+    padding: 0px 0vw 2vw 0px;
+    margin: 0% 0% 0% 0%;
+    margin-left: 2vw;
+}
+
+footer{
+    height: 3vw;
+    width: 100vw;
+    margin-bottom: 10vw;
+}
+
+.container-beratung h3{
+    font-size: 5vw;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #D71922;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-beratung p{
+    font-size: 4vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-beratung a{
+    text-decoration: none;
+    background-color: #ffffff;
+    width: 100vw;
+    color: #000000;
+    font-weight: lighter;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    body {
+        background-color: white;
+        margin: 0 0 0 0;
+    }    
+    
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: auto;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(13, 22, 104);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 8vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 15vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5vw;
+        
+    }
+
+      
+    .dropbtn {
+        display: none;
+    }
+
+    .dropdown{
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+      
+    .container-dropdown {
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    ul.links{
+        width: 100vw;
+        padding: 0%;
+        padding-left: 0%;
+    }
+
+    ul li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 0%;
+        padding: 0%;
+    }
+      
+    .links li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 2vw;
+    }
+    
+    .links a{
+        color: #000000;
+        font-weight: lighter;
+        font-size: 1.4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .links a:hover{
+        color: #D71922;
+    }
+
+    .container-menu b{
+        width: 5vw
+    }
+    
+    .facebook{
+        float: right;
+        display: flex;
+        background-color: white;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        display: none;
+    }
+
+    .einkaufswagen-website{
+        float: right;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+        background-color: white;
+    }
+    
+    nav {
+        width: 100vw;
+        height: 100vw;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 5vw;
+    }
+    
+    section .container-roof  {
+        display: flex;
+    }
+    
+    .container-roof-image{
+        width: 60vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-roof-image img{
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        margin-left: -45vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+    
+    section .container-description{
+        margin-top: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    
+    .description{
+        display: flex;
+        width: 200vw;
+        height: auto;
+        margin: -3vw 0px 0px 20vw;
+        padding-right: 1vw;
+        color: white;
+        text-align: left;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .button-shop{
+        width: 200vw;
+        height: auto;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+    }
+    
+    .button-shop button{
+        background-color: #D71922;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.3vw;
+        font-weight: bold;
+        margin: 10vw 0px 0px 5vw;
+        padding: 0vh 5vw;
+        cursor: pointer;
+    }
+    
+    .arrowRight{
+        border: solid rgb(255, 255, 255);
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.2vw 0px 0.3vw 0.5vw;
+        transform: rotate(-45deg);
+    }
+    
+    section .container-leistungen{
+        width: 100vw;
+        height: 35vw;
+        display: flex;
+        align-items: center;   
+    }
+    
+    section .container-tool-image{
+        width: 50vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .container-tool-image img{
+        width: 1000vw;
+        height: 32vw;
+        object-fit: cover;
+        margin-top: 0vw;
+        margin-left: 51vw;
+        
+    }
+    
+    .container-unsere-leistungen{
+        background-color: #79797965;
+        width: 75vw;
+        height: 25vw;
+        margin-top: 0vw;
+        margin-left: -45vw;
+    }
+    
+    h2{
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 3vw;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 60vw;
+        height: auto;
+        margin-top: 1vw;
+        padding-left: 2vw;
+    }
+    
+    .abdichten{
+        margin: 1vw 0% 0% 0%;
+    }
+    
+    .abdichten li{
+        display: inline;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0px 0px 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 5vw;
+    }
+    
+    .sanieren{
+        margin: 2vw 0% 0% 0%;
+    }
+    
+    .sanieren li{
+        display: inline;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0px 0px 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 7vw;
+    }
+    
+    .verfugen{
+        margin: 2vw 0% 0% 0%;
+    }
+    
+    .verfugen li{
+        display: inline;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0px 0px 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 5vw;
+    }
+    
+    .container-button-details {
+        height: 4vw;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+        padding: 0px 1vw;
+    }
+    
+    .container-button-details button{
+        background-color: #D71922;
+        display: flex;
+        border: none;
+        color: white;
+        font-size: 1.3vw;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 4vw 0px 0px 0vw;
+        margin-right: 2vw;
+        padding: 0vh 5vw;
+        align-items: center;
+        cursor: pointer;
+    }
+    
+    .container-vorteile{
+        background-color: #D71922;
+        width: 100vw;
+        height: auto;
+        margin-bottom: 2vw;
+        padding-bottom: 5vw;
+    
+    }
+    
+    h4{
+        color: #ffffff;
+        font-size: 3vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding-top: 3vw;
+    }
+    
+    .vorteile li{
+        display:inline-block;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0vw 2vw 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 2vw;
+    }
+
+    footer{
+        height: auto;
+        width: 100vw;
+        margin-bottom: 10vw;
+        margin-top: 15vw;
+    }
+    
+    
+    .container-beratung h3{
+        font-size: 3vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #D71922;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .container-beratung p{
+        font-size: 2vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #000000;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .container-beratung a{
+        text-decoration: none;
+        background-color: #ffffff;
+        width: 100vw;
+        color: #000000;
+        font-weight: lighter;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+
+    body {
+        background-color: white;
+        margin: 0 0 0 0;
+    }    
+    
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: auto;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(13, 22, 104);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 8vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 15vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5vw;
+        
+    }
+
+      
+    .dropbtn {
+        display: none;
+    }
+
+    .dropdown{
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+      
+    .container-dropdown {
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    ul.links{
+        width: 100vw;
+        padding: 0%;
+        padding-left: 0%;
+    }
+
+    ul li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 0%;
+        padding: 0%;
+    }
+      
+    .links li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 2vw;
+    }
+    
+    .links a{
+        color: #000000;
+        font-weight: lighter;
+        font-size: 1.4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .links a:hover{
+        color: #D71922;
+    }
+
+    .container-menu b{
+        width: 5vw
+    }
+    
+    .facebook{
+        float: right;
+        display: flex;
+        background-color: white;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        display: none;
+    }
+
+    .einkaufswagen-website{
+        float: right;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+        background-color: white;
+    }
+    
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 0vw;
+    }
+    
+    section .container-roof  {
+        display: flex;
+    }
+    
+    .container-roof-image{
+        width: 60vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-roof-image img{
+        width: 100%;
+        height: 30vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        margin-left: -45vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+    
+    section .container-description{
+        margin-top: 5vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: auto;
+    }
+    
+    .description{
+        display: flex;
+        width: 200vw;
+        height: auto;
+        margin: -3vw 0px 0px 20vw;
+        padding-right: 1vw;
+        color: white;
+        text-align: left;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        justify-content: left;
+        align-items: center;
+    }
+    
+    .button-shop{
+        width: 200vw;
+        height: auto;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+    }
+    
+    .button-shop button{
+        background-color: #D71922;
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.3vw;
+        font-weight: bold;
+        margin: 10vw 0px 0px 5vw;
+        padding: 0vh 5vw;
+        cursor: pointer;
+    }
+    
+    .arrowRight{
+        border: solid rgb(255, 255, 255);
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.2vw 0px 0.3vw 0.5vw;
+        transform: rotate(-45deg);
+    }
+    
+    section .container-leistungen{
+        width: 100vw;
+        height: 35vw;
+        display: flex;
+        align-items: center;   
+    }
+    
+    section .container-tool-image{
+        width: 50vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .container-tool-image img{
+        width: 1000vw;
+        height: 32vw;
+        object-fit: cover;
+        margin-top: 0vw;
+        margin-left: 51vw;
+        
+    }
+    
+    .container-unsere-leistungen{
+        background-color: #79797965;
+        width: 75vw;
+        height: 25vw;
+        margin-top: 0vw;
+        margin-left: -45vw;
+    }
+    
+    h2{
+        color: #ffffff;
+        font-weight: normal;
+        font-size: 3vw;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 60vw;
+        height: auto;
+        margin-top: 1vw;
+        padding-left: 2vw;
+    }
+    
+    .abdichten{
+        margin: 1vw 0% 0% 0%;
+    }
+    
+    .abdichten li{
+        display: inline;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0px 0px 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 5vw;
+    }
+    
+    .sanieren{
+        margin: 2vw 0% 0% 0%;
+    }
+    
+    .sanieren li{
+        display: inline;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0px 0px 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 7vw;
+    }
+    
+    .verfugen{
+        margin: 2vw 0% 0% 0%;
+    }
+    
+    .verfugen li{
+        display: inline;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0px 0px 0px;
+        margin: 0% 0% 0% 0%;
+        margin-left: 5vw;
+    }
+    
+    .container-button-details {
+        height: 4vw;
+        justify-content: right;
+        align-items: center;
+        display: flex;
+        padding: 0px 1vw;
+    }
+    
+    .container-button-details button{
+        background-color: #D71922;
+        display: flex;
+        border: none;
+        color: white;
+        font-size: 1.3vw;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 4vw 0px 0px 0vw;
+        margin-right: 2vw;
+        padding: 0vh 5vw;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .container-vorteile{
+        background-color: #D71922;
+        width: 100vw;
+        height: auto;
+        margin-bottom: 2vw;
+        padding-bottom: 5vw;
+    
+    }
+    
+    h4{
+        color: #ffffff;
+        font-size: 3vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        padding-top: 3vw;
+    }
+    
+    .vorteile li{
+        display:inline-block;
+        color: #ffffff;
+        font-weight: normal;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        padding: 0px 0vw 2vw 0vw;
+        margin: 0% 0% 0% 0%;
+        margin-left: 2vw;
+    }
+
+    footer{
+        height: auto;
+        width: 100vw;
+        margin-bottom: 10vw;
+        margin-top: 5vw;
+    }
+    
+    .container-beratung h3{
+        font-size: 2vw;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #D71922;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .container-beratung p{
+        font-size: 1.5vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: #000000;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .container-beratung a{
+        text-decoration: none;
+        background-color: #ffffff;
+        width: 100vw;
+        color: #000000;
+        font-weight: lighter;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+}
