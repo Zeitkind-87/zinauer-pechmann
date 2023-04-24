@@ -336,13 +336,16 @@ h2{
 }
 
 .container-vorteile{
-    background-color: rgb(255, 255, 255);
+    background-color: #D71922;
     width: 100vw;
-    height: 40vw;
+    height: auto;
+    margin-bottom: 2vw;
+    padding-bottom: 5vw;
+
 }
 
 h4{
-    color: #D71922;
+    color: #ffffff;
     font-size: 5vw;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -350,31 +353,14 @@ h4{
 }
 
 .zeile1 li{
-    display: inline;
-    color: #000000;
+    display:inline-block;
+    color: #ffffff;
     font-weight: normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2vw;
-    padding: 0px 0px 0px 0px;
+    font-size: 4vw;
+    padding: 0px 0vw 2vw 0px;
     margin: 0% 0% 0% 0%;
     margin-left: 2vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.zeile2 li{
-    display: inline;
-    color: #000000;
-    font-weight: normal;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2vw;
-    padding: 0px 0px 0px 0px;
-    margin: 0% 0% 0% 0%;
-    margin-left: 2vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
 }
 
 footer{
