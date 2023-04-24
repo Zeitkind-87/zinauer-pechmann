@@ -192,7 +192,7 @@ section .container-description{
 }
 
 .button-shop{
-    width: 100vw;
+    width: auto;
     height: auto;
     margin-top: 15vw;
     margin-left: 38vw;
@@ -236,6 +236,7 @@ section .container-tool-image{
     height: auto;
     display: flex;
     align-items: center;
+    display: none;
 }
 
 .container-tool-image img{
@@ -244,21 +245,20 @@ section .container-tool-image{
     object-fit: cover;
     margin-top: 0vw;
     margin-left: 32vw;
-    
+    display: none;    
 }
 
 .container-unsere-leistungen{
-    background-color: #79797965;
-    width: 80vw;
-    height: 40vw;
+    background-color: #797979e3;
+    width: 100vw;
+    height: 45vw;
     margin-top: 0vw;
-    margin-left: -45vw;
 }
 
 h2{
     color: #ffffff;
     font-weight: normal;
-    font-size: 3vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 60vw;
@@ -276,7 +276,7 @@ h2{
     color: #ffffff;
     font-weight: normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5vw;
+    font-size: 4vw;
     padding: 0px 0px 0px 0px;
     margin: 0% 0% 0% 0%;
     margin-left: 5vw;
@@ -291,7 +291,7 @@ h2{
     color: #ffffff;
     font-weight: normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5vw;
+    font-size: 4vw;
     padding: 0px 0px 0px 0px;
     margin: 0% 0% 0% 0%;
     margin-left: 7vw;
@@ -306,7 +306,7 @@ h2{
     color: #ffffff;
     font-weight: normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 2.5vw;
+    font-size: 4vw;
     padding: 0px 0px 0px 0px;
     margin: 0% 0% 0% 0%;
     margin-left: 5vw;
@@ -327,9 +327,10 @@ h2{
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bold;
-    margin: 14vw 0px 0px 5vw;
+    margin: 14vw 0px 0px 0vw;
+    margin-right: 6vw;
     padding: 0vh 8vw;
     cursor: pointer;
 }
@@ -341,7 +342,7 @@ footer{
 }
 
 .container-beratung h3{
-    font-size: 3vw;
+    font-size: 5vw;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -350,7 +351,7 @@ footer{
 }
 
 .container-beratung p{
-    font-size: 2vw;
+    font-size: 4vw;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -631,7 +632,7 @@ footer{
     
     .container-unsere-leistungen{
         background-color: #79797965;
-        width: 80vw;
+        width: 75vw;
         height: 25vw;
         margin-top: 0vw;
         margin-left: -45vw;
@@ -658,7 +659,7 @@ footer{
         color: #ffffff;
         font-weight: normal;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding: 0px 0px 0px 0px;
         margin: 0% 0% 0% 0%;
         margin-left: 5vw;
@@ -673,7 +674,7 @@ footer{
         color: #ffffff;
         font-weight: normal;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding: 0px 0px 0px 0px;
         margin: 0% 0% 0% 0%;
         margin-left: 7vw;
@@ -688,7 +689,7 @@ footer{
         color: #ffffff;
         font-weight: normal;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding: 0px 0px 0px 0px;
         margin: 0% 0% 0% 0%;
         margin-left: 5vw;
@@ -700,7 +701,6 @@ footer{
         align-items: center;
         display: flex;
         padding: 0px 1vw;
-        cursor: pointer;
     }
     
     .container-button-details button{
@@ -708,15 +708,17 @@ footer{
         display: flex;
         border: none;
         color: white;
-        padding: 0% 6vw;
         font-size: 1.3vw;
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: 1vw 0px 0px 5vw;
+        margin: 4vw 0px 0px 0vw;
+        margin-right: 2vw;
         padding: 0vh 5vw;
         align-items: center;
         cursor: pointer;
     }
+    
+    
     
     .container-beratung h3{
         font-size: 3vw;
@@ -925,8 +927,8 @@ footer{
         position:absolute;
         color: #ffffff;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 4vw;
-        margin-left: -50vw;
+        font-size: 5vw;
+        margin-left: -45vw;
         justify-content: center;
         align-items: center;
         padding-right: 1vw;
@@ -1011,7 +1013,7 @@ footer{
     
     .container-unsere-leistungen{
         background-color: #79797965;
-        width: 80vw;
+        width: 75vw;
         height: 25vw;
         margin-top: 0vw;
         margin-left: -45vw;
@@ -1038,7 +1040,7 @@ footer{
         color: #ffffff;
         font-weight: normal;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding: 0px 0px 0px 0px;
         margin: 0% 0% 0% 0%;
         margin-left: 5vw;
@@ -1053,7 +1055,7 @@ footer{
         color: #ffffff;
         font-weight: normal;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding: 0px 0px 0px 0px;
         margin: 0% 0% 0% 0%;
         margin-left: 7vw;
@@ -1068,7 +1070,7 @@ footer{
         color: #ffffff;
         font-weight: normal;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 2.5vw;
+        font-size: 2vw;
         padding: 0px 0px 0px 0px;
         margin: 0% 0% 0% 0%;
         margin-left: 5vw;
@@ -1087,11 +1089,11 @@ footer{
         display: flex;
         border: none;
         color: white;
-        padding: 0% 6vw;
         font-size: 1.3vw;
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin: 1vw 0px 0px 5vw;
+        margin: 4vw 0px 0px 0vw;
+        margin-right: 2vw;
         padding: 0vh 5vw;
         align-items: center;
         cursor: pointer;
