@@ -31,7 +31,7 @@ section .container-header{
 }
 
 .logo{
-    width: 25vw;
+    width: 30vw;
 }
 
 .container-menu{
@@ -659,7 +659,7 @@ footer{
     }
     
     .container-unsere-leistungen{
-        background-color: #79797965;
+        background-color: #797979d5;
         width: 75vw;
         height: 25vw;
         margin-top: 0vw;
@@ -1074,7 +1074,7 @@ footer{
     }
     
     .container-unsere-leistungen{
-        background-color: #79797965;
+        background-color: #797979d5;
         width: 75vw;
         height: 25vw;
         margin-top: 0vw;

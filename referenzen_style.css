@@ -29,7 +29,7 @@
     }
     
     .logo{
-        width: 25vw;
+        width: 30vw;
     }
     
     .container-menu{
@@ -132,9 +132,215 @@
         width: 100vw;
         height: auto;
         background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
-        padding-bottom: 0vw;
+        padding-bottom: 10vw;
     }
     
+    section .container-referenz  {
+        display: flex;
+    }
+    
+    .container-referenz-image{
+        width: 100vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-referenz-image img{
+        width: 130vw;
+        height: 40vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 100vw;
+        height: 40vw;
+        justify-content: center;
+        align-items: center;
+        background-color: aqua;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 6vw;
+        margin-left: -90vw;
+        margin-top: 0vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 10vw;
+    }
+
+    .container-bilder{
+        margin-top: 10vw;
+    }
+
+    .bilder img{
+        width: 30vw;
+        height: 30vw;
+    }
+    
+
+    .bilder {
+        float: left;
+        width: 33vw;
+        padding-bottom: 3vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+    .container-bilder::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    body {
+        height: 100vw;
+        background-color: white;
+        margin: 0 0 0 0;
+    }
+
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: auto;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(13, 22, 104);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 8vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 15vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5vw;
+        
+    }
+
+      
+    .dropbtn {
+        display: none;
+    }
+
+    .dropdown{
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+      
+    .container-dropdown {
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    ul.links{
+        width: 100vw;
+        padding: 0%;
+        padding-left: 0%;
+    }
+
+    ul li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 0%;
+        padding: 0%;
+    }
+      
+    .links li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 2vw;
+    }
+    
+    .links a{
+        color: #000000;
+        font-weight: lighter;
+        font-size: 1.4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .links a:hover{
+        color: #D71922;
+    }
+
+    .container-menu b{
+        width: 5vw
+    }
+    
+    .facebook{
+        float: right;
+        display: flex;
+        background-color: white;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        display: none;
+    }
+
+    .einkaufswagen-website{
+        float: right;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+        background-color: white;
+    }
+
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 0vw;
+    }
+
     section .container-referenz  {
         display: flex;
     }
@@ -170,69 +376,233 @@
         padding-right: 0vw;
     }
 
-    .container-bild1{
+    .container-bilder{
+        margin-top: 25vw;
+    }
+
+    .bilder img{
+        width: 30vw;
+        height: 30vw;
+    }
+    
+
+    .bilder {
+        float: left;
+        width: 33vw;
+        padding-bottom: 3vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+
+    .container-bilder::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+}
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+    body {
+        height: 100vw;
+        background-color: white;
+        margin: 0 0 0 0;
+    }
+
+    header {
+        background-color: rgb(255, 255, 255);
         width: 100vw;
         height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: start;
     }
-
-    .bild1{
-        margin-top: 30vw;
+    
+    section .container-header{
+        width: 100vw;
         height: auto;
-        width: 80vw;
+        background-color: rgb(13, 22, 104);
         display: flex;
-        justify-content: center;
-        align-items: start;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 8vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 15vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5vw;
+        
     }
 
-    .bild1 img{
+      
+    .dropbtn {
+        display: none;
+    }
+
+    .dropdown{
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+      
+    .container-dropdown {
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    ul.links{
+        width: 100vw;
+        padding: 0%;
+        padding-left: 0%;
+    }
+
+    ul li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 0%;
+        padding: 0%;
+    }
+      
+    .links li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 2vw;
+    }
+    
+    .links a{
+        color: #000000;
+        font-weight: lighter;
+        font-size: 1.4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .links a:hover{
+        color: #D71922;
+    }
+
+    .container-menu b{
+        width: 5vw
+    }
+    
+    .facebook{
+        float: right;
+        display: flex;
+        background-color: white;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        display: none;
+    }
+
+    .einkaufswagen-website{
+        float: right;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+        background-color: white;
+    }
+
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 0vw;
+    }
+
+    section .container-referenz  {
+        display: flex;
+    }
+    
+    .container-referenz-image{
         width: 60vw;
-        height: 60vw;
-    }
-
-    .container-bild2{
-        width: 100vw;
-        height: auto;
+        height: 20vw;
         display: flex;
+    }
+    
+    .container-referenz-image img{
+        width: 100vw;
+        height: 30vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 100vw;
+        height: 30vw;
         justify-content: center;
-        align-items: start;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        margin-left: -45vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
     }
 
-    .bild2{
+    .container-bilder{
         margin-top: 10vw;
-        height: auto;
-        width: 80vw;
-        display: flex;
+    }
+
+    .bilder img{
+        width: 25vw;
+        height: 25vw;
+    }
+    
+
+    .bilder {
+        float: left;
+        width: 33vw;
+        padding-bottom: 3vw;
         justify-content: center;
-        align-items: start;
-    }
-
-    .bild2 img{
-        width: 60vw;
-        height: 60vw;
-    }
-
-    .container-bild3{
-        width: 100vw;
-        height: auto;
+        align-items: center;
         display: flex;
-        justify-content: center;
-        align-items: start;
-    }
+      }
 
-    .bild3{
-        margin-top: 10vw;
-        height: auto;
-        width: 80vw;
-        display: flex;
-        justify-content: center;
-        align-items: start;
-    }
-
-    .bild3 img{
-        width: 60vw;
-        height: 60vw;
-    }
+    .container-bilder::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
 }
