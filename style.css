@@ -164,7 +164,7 @@ h1{
     color: #ffffff;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 6vw;
-    margin-left: -74vw;
+    margin-left: -100vw;
     margin-top: 20vw;
     justify-content: center;
     align-items: center;
@@ -192,10 +192,10 @@ section .container-description{
 }
 
 .button-shop{
-    width: auto;
+    width: 100vw;
     height: auto;
     margin-top: 15vw;
-    margin-left: 38vw;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -333,6 +333,48 @@ h2{
     margin-right: 6vw;
     padding: 0vh 8vw;
     cursor: pointer;
+}
+
+.container-vorteile{
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 40vw;
+}
+
+h4{
+    color: #D71922;
+    font-size: 5vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 3vw;
+}
+
+.zeile1 li{
+    display: inline;
+    color: #000000;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+    margin-left: 2vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.zeile2 li{
+    display: inline;
+    color: #000000;
+    font-weight: normal;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    padding: 0px 0px 0px 0px;
+    margin: 0% 0% 0% 0%;
+    margin-left: 2vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
@@ -716,8 +758,7 @@ footer{
         padding: 0vh 5vw;
         align-items: center;
         cursor: pointer;
-    }
-    
+    }    
     
     
     .container-beratung h3{
