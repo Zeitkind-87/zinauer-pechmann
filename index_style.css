@@ -72,7 +72,7 @@ section .container-header{
     display: none;
     position: absolute;
     background-color: #5a5a5a70;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(2px);
     min-width: 50vw;
     z-index: 4;
     margin-left: -52vw;
@@ -103,7 +103,7 @@ ul.links {
     background-color: #D71922;
     width: 50vw;
     color: #ffffff;
-    font-weight: lighter;
+    font-weight: bold;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -1058,14 +1058,14 @@ footer{
     }
     
     section .container-tool-image{
-        width: 50vw;
+        width: 60vw;
         height: auto;
         display: flex;
         align-items: center;
     }
     
     .container-tool-image img{
-        width: 1000vw;
+        width: 60vw;
         height: 32vw;
         object-fit: cover;
         margin-top: 0vw;

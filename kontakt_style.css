@@ -71,7 +71,7 @@
         display: none;
         position: absolute;
         background-color: #5a5a5a70;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(2px);
         min-width: 50vw;
         z-index: 4;
         margin-left: -52vw;
@@ -102,7 +102,7 @@
         background-color: #D71922;
         width: 50vw;
         color: #ffffff;
-        font-weight: lighter;
+        font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: flex;
         justify-content: center;

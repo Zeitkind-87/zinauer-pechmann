@@ -1,0 +1,540 @@
+@media (max-width: 767px) {
+
+    body {
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        margin: 0 0 0 0;
+    }    
+
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: 15vw;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 15vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 30vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 4vw;
+    }
+    
+    .dropdown {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+    .dropbtn {
+        background-image: url(images/menu.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        background-color: rgb(255, 255, 255);
+        height: 6vw;
+        width: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }      
+    
+    .active {
+        background-color: wheat;
+      }
+      
+    .container-dropdown {
+        display: none;
+        position: absolute;
+        background-color: #5a5a5a70;
+        backdrop-filter: blur(2px);
+        min-width: 50vw;
+        z-index: 4;
+        margin-left: -52vw;
+        margin-top: 46vw;
+    }
+
+    .dropdown:hover .container-dropdown {
+        display: block;
+    }
+
+    
+    
+    ul.links {
+        margin: 0;
+        padding: 0;
+        color: #ffffff;
+      }
+      
+    .links li {
+        padding: 2vw;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .links a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .links a[href^="shop"]{
+        text-decoration: none;
+        background-color: #D71922;
+        width: 50vw;
+        color: #ffffff;
+        font-weight: bold;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        padding: 1vw;
+    }
+      
+    
+    .facebook{
+        float: right;
+        width: 6vw;
+        margin: 0% 4vw 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        float: right;
+        width: 6vw;
+        margin: 0% 4vw 0% 0%;
+    }
+    
+    .einkaufswagen-website{
+        display: none;
+    }
+
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 10vw;
+    }
+
+    section .container-image-ueberschrift  {
+        display: flex;
+    }
+    
+    .container-shop-image{
+        width: 100vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-shop-image img{
+        width: 100vw;
+        height: 40vw;
+        object-fit: cover;
+        display: flex;
+        filter: brightness(80%)
+    }
+    
+    .container-h1 {
+        width: 100vw;
+        height: 40vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 6vw;
+        margin-left: -90vw;
+        margin-top: 0vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 0vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+    body {
+        background-color: white;
+        margin: 0 0 0 0;
+    }    
+    
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: auto;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(13, 22, 104);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 8vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 15vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5vw;
+        
+    }
+
+      
+    .dropbtn {
+        display: none;
+    }
+
+    .dropdown{
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+      
+    .container-dropdown {
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    ul.links{
+        width: 100vw;
+        padding: 0%;
+        padding-left: 0%;
+    }
+
+    ul li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 0%;
+        padding: 0%;
+    }
+      
+    .links li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 2vw;
+    }
+    
+    .links a{
+        color: #000000;
+        font-weight: lighter;
+        font-size: 1.4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .links a:hover{
+        color: #D71922;
+    }
+
+    .container-menu b{
+        width: 5vw
+    }
+    
+    .facebook{
+        float: right;
+        display: flex;
+        background-color: white;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        display: none;
+    }
+
+    .einkaufswagen-website{
+        float: right;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+        background-color: white;
+    }
+
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 5vw;
+    }
+
+    section .container-image-ueberschrift  {
+        display: flex;
+    }
+    
+    .container-shop-image{
+        width: 100vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-shop-image img{
+        width: 60vw;
+        height: 30vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        margin-left: -55vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1024px){
+
+    body {
+        background-color: white;
+        margin: 0 0 0 0;
+    }    
+    
+    header {
+        background-color: rgb(255, 255, 255);
+        width: 100vw;
+        height: auto;
+    }
+    
+    section .container-header{
+        width: 100vw;
+        height: auto;
+        background-color: rgb(13, 22, 104);
+        display: flex;
+        margin-bottom: 0%;
+    }
+    
+    .container-logo{
+        width: 50vw;
+        height: 8vw;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        padding-left: 1vw;
+    }
+    
+    .logo{
+        width: 15vw;
+    }
+    
+    .container-menu{
+        width: 50vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding-right: 5vw;
+        
+    }
+
+      
+    .dropbtn {
+        display: none;
+    }
+
+    .dropdown{
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+      
+    .container-dropdown {
+        width: 30vw;
+        height: auto;
+        background-color: #ffffff;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+    }
+
+    ul.links{
+        width: 100vw;
+        padding: 0%;
+        padding-left: 0%;
+    }
+
+    ul li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 0%;
+        padding: 0%;
+    }
+      
+    .links li {
+        float: left;
+        display: flex;
+        text-align: left;
+        justify-content: left;
+        padding-left: 2vw;
+    }
+    
+    .links a{
+        color: #000000;
+        font-weight: lighter;
+        font-size: 1.4vw;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        justify-content: left;
+        display: flex;
+        text-decoration: none;
+    }
+
+    .links a:hover{
+        color: #D71922;
+    }
+
+    .container-menu b{
+        width: 5vw
+    }
+    
+    .facebook{
+        float: right;
+        display: flex;
+        background-color: white;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+    }
+    
+    .einkaufswagen-mobile{
+        display: none;
+    }
+
+    .einkaufswagen-website{
+        float: right;
+        width: 2.2vw;
+        margin: 0% 0% 0% 0%;
+        background-color: white;
+    }
+
+    nav {
+        width: 100vw;
+        height: auto;
+        background-image: linear-gradient(to left, #5A5A5A 90vw, #ffffff 10vw);
+        padding-bottom: 5vw;
+    }
+
+    section .container-image-ueberschrift  {
+        display: flex;
+    }
+    
+    .container-shop-image{
+        width: 100vw;
+        height: 20vw;
+        display: flex;
+    }
+    
+    .container-shop-image img{
+        width: 60vw;
+        height: 30vw;
+        object-fit: cover;
+    }
+    
+    .container-h1 {
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    h1{
+        position:absolute;
+        color: #ffffff;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 5vw;
+        margin-left: -55vw;
+        justify-content: center;
+        align-items: center;
+        padding-right: 1vw;
+    }
+}

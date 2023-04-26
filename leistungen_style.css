@@ -70,7 +70,7 @@
         display: none;
         position: absolute;
         background-color: #5a5a5a70;
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(2px);
         min-width: 50vw;
         z-index: 4;
         margin-left: -52vw;
@@ -101,7 +101,7 @@
         background-color: #D71922;
         width: 50vw;
         color: #ffffff;
-        font-weight: lighter;
+        font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: flex;
         justify-content: center;
@@ -149,6 +149,7 @@
         width: 130vw;
         height: 40vw;
         object-fit: cover;
+        filter: brightness(80%)
     }
     
     .container-h1 {
@@ -366,6 +367,7 @@
         width: 60vw;
         height: 30vw;
         object-fit: cover;
+        filter: brightness(90%)
     }
     
     .container-h1 {
@@ -406,7 +408,7 @@
         background-color: #797979d5;
         margin-top: 2vw;
         padding-bottom: 4vw;
-        width: 40vw;
+        width: 50vw;
     }
 
     h2{
@@ -639,14 +641,15 @@
         background-color: #797979d5;
         margin-top: 2vw;
         padding-bottom: 4vw;
-        width: 40vw;
+        width: 50vw;
     }
 
     h2{
-        color: #ffffff;
+        color: #D71922;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         padding-top: 1vw;
         font-size: 2vw;
+        font-weight: bolder;
         text-align: center;
     }
 

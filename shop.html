@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop_style.css">
+    <title>Alles was Sie brauchen | Zinauer & Pechmann</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+</head>
+<body>
+
+    <header>
+        <section>
+            <div class="container-header">
+
+                <div class="container-logo">
+                    <img class="logo" src="images/logo.png" alt="logo" />
+                </div>    
+
+                <div class="container-menu">
+                    <a href="https://www.facebook.com/zinauerpechmann.abdichtungstechnikog.3/?paipv=0&eav=AfZH3U3bGbUvaBWXd1QP0SebT389wvMkkv2ja5LcROw9RLDt6MDsIaOsM6JJe1IjRBg&_rdr"><img class="facebook" src="images/facebook.png" alt="facebook"/></a>
+                    <img class="einkaufswagen-mobile" src="images/einkaufswagen.png" alt="einkaufswagen"/>
+                    <div class="dropdown">
+                        <button class="dropbtn" onclick="myFunction()"></button>
+                        <div class="container-dropdown">
+                            <ul class="links">
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                                <li><a href="referenzen.html">Referenzen</a></li>
+                                <li><a href="leistungen.html">Leistung</a></li>
+                                <li><a href="shop.html">Shop</a></li>   
+                            </ul>                   
+                        </div>
+                    </div>
+                    
+                    <img class="einkaufswagen-website" src="images/einkaufswagen.png" alt="einkaufswagen"/>
+                </div>                 
+            </div>    
+        </section>   
+    </header>
+
+    <nav>
+
+        <section>
+            <div class="container-image-ueberschrift">
+                <div class="container-shop-image">
+                    <img src="images/shop.jpg" alt="shop"/>
+                </div>
+                <div class="container-h1">
+                    <h1>Unsere Leistungen - <span style="color: #D71922">Unser Handwerk ist Ihre Lösung</span> - Biegungen, die passen wie angegossen.</h1>
+                </div>
+            </div>            
+        </section>
+
+    </nav>
+
+    <script>
+        const button = document.getElementsByClassName("container-dropdown"); 
+        const buttonPressed = (e) => {
+        e.target.classList.toggle("active");
+        }
+        button.addEventListener("click", buttonPressed);
+        </script>
+    
+</body>
+</html>
