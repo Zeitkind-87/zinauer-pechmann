@@ -43,6 +43,7 @@
         margin-right: 4vw;
     }
     
+    /* Style für Dropdown-Button */
     .dropdown {
         overflow: hidden;
         display: flex;
@@ -61,11 +62,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }      
-    
-    .active {
-        background-color: wheat;
-      }
+    }
+
+    .dropbtn.clicked {
+        background-image: url(images/close.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        height: 6vw;
+        width: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
       
     .container-dropdown {
         display: none;
@@ -77,12 +86,6 @@
         margin-left: -52vw;
         margin-top: 46vw;
     }
-
-    .dropdown:hover .container-dropdown {
-        display: block;
-    }
-
-    
     
     ul.links {
         margin: 0;
@@ -113,6 +116,10 @@
         display: flex;
         justify-content: center;
         padding: 1vw;
+    }
+      
+    .dropdown:hover .container-dropdown {
+        display: block;
     }
       
     

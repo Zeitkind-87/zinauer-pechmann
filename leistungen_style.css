@@ -62,8 +62,16 @@
         align-items: center;
     }
       
-    .navbar a:hover, .dropdown:hover .dropbtn {
-        background-image: url(images/menu.png);
+    .dropbtn.clicked {
+        background-image: url(images/close.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        border: none;
+        height: 6vw;
+        width: 6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
       
     .container-dropdown {

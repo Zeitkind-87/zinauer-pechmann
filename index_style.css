@@ -64,9 +64,18 @@ section .container-header{
     align-items: center;
 }
   
-.navbar a:hover, .dropdown:hover .dropbtn {
-    background-image: url(images/menu.png);
+.dropbtn.clicked {
+    background-image: url(images/close.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    height: 6vw;
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+  
   
 .container-dropdown {
     display: none;
@@ -341,7 +350,8 @@ h2{
     height: auto;
     margin-bottom: 2vw;
     padding-bottom: 5vw;
-
+    
+    text-align: center;
 }
 
 h4{
@@ -358,7 +368,7 @@ h4{
     font-weight: normal;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 4vw;
-    padding: 0px 0vw 2vw 0px;
+    padding: 0px 0vw 2vw 0vw;
     margin: 0% 0% 0% 0%;
     margin-left: 2vw;
 }
@@ -1167,7 +1177,9 @@ footer{
         height: auto;
         margin-bottom: 2vw;
         padding-bottom: 5vw;
-    
+        text-align: center;
+        align-items: center;
+        justify-content: center;
     }
     
     h4{
@@ -1187,6 +1199,7 @@ footer{
         padding: 0px 0vw 2vw 0vw;
         margin: 0% 0% 0% 0%;
         margin-left: 2vw;
+        
     }
 
     footer{
