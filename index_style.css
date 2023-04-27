@@ -82,10 +82,10 @@ section .container-header{
     position: absolute;
     background-color: #5a5a5a70;
     backdrop-filter: blur(2px);
-    min-width: 50vw;
+    min-width: 55vw;
     z-index: 4;
-    margin-left: -60vw;
-    margin-top: 48vw;
+    margin-left: -55vw;
+    margin-top: 54vw;
 }
 
 ul.links {
@@ -95,7 +95,7 @@ ul.links {
   }
   
 .links li {
-    padding: 2vw;
+    padding: 2.5vw;
     display: flex;
     justify-content: center;
 }

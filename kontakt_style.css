@@ -80,10 +80,10 @@
         position: absolute;
         background-color: #5a5a5a70;
         backdrop-filter: blur(2px);
-        min-width: 50vw;
+        min-width: 55vw;
         z-index: 4;
-        margin-left: -52vw;
-        margin-top: 46vw;
+        margin-left: -55vw;
+        margin-top: 54vw;
     }
     
     ul.links {
@@ -93,7 +93,7 @@
       }
       
     .links li {
-        padding: 2vw;
+        padding: 2.5vw;
         display: flex;
         justify-content: center;
     }
@@ -101,6 +101,7 @@
     .links a{
         text-decoration: none;
         color: #ffffff;
+        font-size: 5vw;
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
@@ -110,6 +111,7 @@
         background-color: #D71922;
         width: 50vw;
         color: #ffffff;
+        font-size: 5vw;
         font-weight: bold;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: flex;
