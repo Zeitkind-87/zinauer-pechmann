@@ -1,3 +1,10 @@
+// Preloader
+var loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+
 // Schließen des Dropdown-Menüs, wenn auf einen Link geklickt wird
 var dropdown = document.getElementsByClassName("dropdown");
 for (var i = 0; i < dropdown.length; i++) {

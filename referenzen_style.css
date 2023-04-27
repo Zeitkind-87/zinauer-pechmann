@@ -204,6 +204,55 @@
         clear: both;
         display: table;
       }
+
+      .flipping {
+        width: 10vw;
+        height: 10vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+     }
+     
+     .flipping div {
+        animation: flipping-18i5bq 1.5s calc(var(--delay) * 1s) infinite backwards;
+        background-color: #d71922;
+     }
+     
+     .flipping div:nth-child(1) {
+        --delay: 0.1;
+     }
+     
+     .flipping div:nth-child(2) {
+        --delay: 0.2;
+     }
+     
+     .flipping div:nth-child(3) {
+        --delay: 0.3;
+     }
+     
+     .flipping div:nth-child(4) {
+        --delay: 0.4;
+     }
+     
+     .flipping div:nth-child(5) {
+        --delay: 0.5;
+     }
+     
+     .flipping div:nth-child(6) {
+        --delay: 0.6;
+     }
+     
+     .flipping div:nth-child(7) {
+        --delay: 0.7;
+     }
+     
+     .flipping div:nth-child(8) {
+        --delay: 0.8;
+     }
+     
+     .flipping div:nth-child(9) {
+        --delay: 0.9;
+     }
 }
 
 
@@ -354,20 +403,21 @@
     }
     
     .container-referenz-image{
-        width: 100vw;
+        width: 60vw;
         height: 20vw;
         display: flex;
     }
     
     .container-referenz-image img{
-        width: 130vw;
-        height: 40vw;
+        width: 100vw;
+        height: 30vw;
         object-fit: cover;
     }
     
     .container-h1 {
         display: flex;
-        width: 10vw;
+        width: 100vw;
+        height: 30vw;
         justify-content: center;
         align-items: center;
     }
@@ -376,21 +426,20 @@
         position:absolute;
         color: #ffffff;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 6vw;
-        margin-left: -100vw;
-        margin-top: 20vw;
+        font-size: 5vw;
+        margin-left: -45vw;
         justify-content: center;
         align-items: center;
-        padding-right: 0vw;
+        padding-right: 1vw;
     }
 
     .container-bilder{
-        margin-top: 25vw;
+        margin-top: 10vw;
     }
 
     .bilder img{
-        width: 30vw;
-        height: 30vw;
+        width: 25vw;
+        height: 25vw;
     }
     
 
@@ -408,6 +457,55 @@
         clear: both;
         display: table;
       }
+
+      .flipping {
+        width: 10vw;
+        height: 10vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+     }
+     
+     .flipping div {
+        animation: flipping-18i5bq 1.5s calc(var(--delay) * 1s) infinite backwards;
+        background-color: #d71922;
+     }
+     
+     .flipping div:nth-child(1) {
+        --delay: 0.1;
+     }
+     
+     .flipping div:nth-child(2) {
+        --delay: 0.2;
+     }
+     
+     .flipping div:nth-child(3) {
+        --delay: 0.3;
+     }
+     
+     .flipping div:nth-child(4) {
+        --delay: 0.4;
+     }
+     
+     .flipping div:nth-child(5) {
+        --delay: 0.5;
+     }
+     
+     .flipping div:nth-child(6) {
+        --delay: 0.6;
+     }
+     
+     .flipping div:nth-child(7) {
+        --delay: 0.7;
+     }
+     
+     .flipping div:nth-child(8) {
+        --delay: 0.8;
+     }
+     
+     .flipping div:nth-child(9) {
+        --delay: 0.9;
+     }
 
 }
 
@@ -613,4 +711,80 @@
         clear: both;
         display: table;
       }
+
+      .flipping {
+        width: 10vw;
+        height: 10vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+     }
+     
+     .flipping div {
+        animation: flipping-18i5bq 1.5s calc(var(--delay) * 1s) infinite backwards;
+        background-color: #d71922;
+     }
+     
+     .flipping div:nth-child(1) {
+        --delay: 0.1;
+     }
+     
+     .flipping div:nth-child(2) {
+        --delay: 0.2;
+     }
+     
+     .flipping div:nth-child(3) {
+        --delay: 0.3;
+     }
+     
+     .flipping div:nth-child(4) {
+        --delay: 0.4;
+     }
+     
+     .flipping div:nth-child(5) {
+        --delay: 0.5;
+     }
+     
+     .flipping div:nth-child(6) {
+        --delay: 0.6;
+     }
+     
+     .flipping div:nth-child(7) {
+        --delay: 0.7;
+     }
+     
+     .flipping div:nth-child(8) {
+        --delay: 0.8;
+     }
+     
+     .flipping div:nth-child(9) {
+        --delay: 0.9;
+     }
 }
+
+#preloader{
+    background: #000;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+@keyframes flipping-18i5bq {
+    0% {
+       transform: perspective(10vw) rotateX(-90deg);
+    }
+ 
+    50%, 75% {
+       transform: perspective(10vw) rotateX(0);
+    }
+ 
+    100% {
+       opacity: 0;
+       transform: perspective(10vw) rotateX(0);
+    }
+ }
